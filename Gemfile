@@ -20,7 +20,13 @@ gem 'jbuilder', '~> 2.7'
 # haml for template engine
 gem 'hamlit-rails', '~> 0.2.3'
 # transform erb to haml
-# gem 'html2haml', '~> 2.2.0' 
+# gem 'html2haml', '~> 2.2.0'
+
+# omniauth for github authentication
+gem 'omniauth', '~> 1.9.1'
+gem 'omniauth-github', '~> 1.4.0'
+gem 'omniauth-rails_csrf_protection', '~> 0.1.2'
+
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
