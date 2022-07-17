@@ -21,6 +21,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'hamlit-rails', '~> 0.2.3'
 # transform erb to haml
 # gem 'html2haml', '~> 2.2.0'
+# fetch Japanese dictionary data for i18n
+gem 'rails-i18n', '~> 6.0.0'
 
 # omniauth for github authentication
 gem 'omniauth', '~> 1.9.1'
