@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get "/auth/:provider/callback" => "sessions#create"
   delete "/logout" => "sessions#destroy"
   
+  resource :retirements
+
   # イベントとチケットリソースは親子関係
   resources :events do
     resources :tickets
