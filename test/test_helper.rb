@@ -7,7 +7,8 @@ class ActiveSupport::TestCase
   parallelize(workers: :number_of_processors)
 
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
+  # Not using fixture on this app, using factory_bot
+  # fixtures :all
 
   # Add more helper methods to be used by all tests here...
 end
