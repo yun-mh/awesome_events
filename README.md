@@ -1,3 +1,3 @@
-# パーフェクト Ruby on Rails 第 6 章
+# パーフェクト Ruby on Rails Part 3 and 4
 
 アプリケーション開発サンプル
