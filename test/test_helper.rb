@@ -3,6 +3,7 @@ require_relative '../config/environment'
 # add custom sign_in_helper
 require_relative './sign_in_helper.rb'
 require 'rails/test_help'
+require 'minitest/mock'
 
 class ActiveSupport::TestCase
   # Run tests in parallel with specified workers
