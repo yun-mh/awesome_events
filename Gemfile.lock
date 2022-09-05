@@ -77,6 +77,14 @@ GEM
     childprocess (4.1.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
+    elasticsearch (7.4.0)
+      elasticsearch-api (= 7.4.0)
+      elasticsearch-transport (= 7.4.0)
+    elasticsearch-api (7.4.0)
+      multi_json
+    elasticsearch-transport (7.4.0)
+      faraday
+      multi_json
     erubi (1.10.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -137,6 +145,7 @@ GEM
     mini_portile2 (2.8.0)
     minitest (5.16.2)
     msgpack (1.5.3)
+    multi_json (1.15.0)
     multi_xml (0.6.0)
     nio4r (2.5.8)
     nokogiri (1.13.6)
@@ -221,6 +230,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    searchkick (5.0.4)
+      activemodel (>= 5.2)
+      hashie
     selenium-webdriver (4.1.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -277,6 +289,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  elasticsearch (< 7.14)
   factory_bot_rails
   hamlit-rails (~> 0.2.3)
   image_processing (~> 1.2)
@@ -290,6 +303,7 @@ DEPENDENCIES
   rails (~> 6.0.3)
   rails-i18n (~> 6.0.0)
   sass-rails (>= 6)
+  searchkick
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)

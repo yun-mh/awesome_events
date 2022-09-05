@@ -44,6 +44,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # For pagination feature
 gem 'kaminari', '~> 1.2.0'
 
+# For elastic search
+gem 'searchkick'
+gem "elasticsearch", "< 7.14"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
