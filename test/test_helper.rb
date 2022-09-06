@@ -1,7 +1,7 @@
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 # add custom sign_in_helper
-require_relative './sign_in_helper.rb'
+require_relative './sign_in_helper'
 require 'rails/test_help'
 require 'minitest/mock'
 

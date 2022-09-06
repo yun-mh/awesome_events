@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-  skip_before_action :authenticate # can be accessed even if not logged in 
+  skip_before_action :authenticate # can be accessed even if not logged in
 
   def index
     @event_search_form = EventSearchForm.new(event_search_form_params)
